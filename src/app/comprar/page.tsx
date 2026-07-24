@@ -88,7 +88,7 @@ function ComprarContent() {
   const [loadingMore, setLoadingMore] = useState(false);
   const [currentPage, setCurrentPage] = useState(0);
   const [apiTotal, setApiTotal] = useState(0);
-  const PAGE_SIZE = 100;
+  const PAGE_SIZE = 30;
   const [selectedCategory, setSelectedCategory] = useState(searchParams.get("categoria") || "");
   const [selectedState, setSelectedState] = useState(searchParams.get("estado") || "");
   const [selectedSort, setSelectedSort] = useState(searchParams.get("ordena") || "recentes");
